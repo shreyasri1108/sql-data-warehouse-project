@@ -25,9 +25,11 @@ GO
 
 -- create database
 CREATE DATABASE datawarehouse;
+GO
 
 -- use this datawarehouse
 USE datawarehouse;
+GO
 
 -- creating a schema for each layer
 -- Schema - Its like a folder / container that keeps things orgaize
