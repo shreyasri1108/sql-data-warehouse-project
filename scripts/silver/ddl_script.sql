@@ -1,3 +1,9 @@
+/*
+Purpose :- The below script creates Silver Layer schema along with current datetime stamp , drops the schema with same name if already exists
+           
+*/
+
+
 USE datawarehouse
 
 --creating a DDL command
