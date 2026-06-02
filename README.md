@@ -1,14 +1,45 @@
-# sql-data-warehouse-project
-Building Datawarehouse project using SQL server , including ETL process , data modeling and analytics , using application of ( Bronze , Silver and Gold Layers)
+## Sql-data-warehouse Project Overview
 
-Now here the projects are divided into 3 segments
-1 - Bronze Layer - At this step the RAW data has been loaded into Database
-2 - Silver Layer - One of the most important layer , where we have transformed the whole data , removed unneccesary and duplicate values , and provided value to it 
-3 - Gold Layer - Is cleaned data , Here the bussiness ready data has been created to be used by analystics team for bussiness analysis .
+This project demonstrates the implementation of a modern Data Warehouse using SQL Server.
 
-<h2> Star Schema <p> -> is used for Data modeling , the create relationships between FACT table and DIMENSION table </p> </h2>
+### Key Features
 
-FACT table - has all the foreign keys related to dimensions
-DIMENSION table - has the primary keys along with the values 
+- ✅ ETL Process
+- ✅ Data Modeling
+- ✅ Data Analytics
+- ✅ Bronze Layer
+- ✅ Silver Layer
+- ✅ Gold Layer
+- ✅ Star Schema Design
 
-Using above , establishing relationship between FACT and DIMENSION table , eases DATA MINING
+## 🏗️ Data Warehouse Layers
+
+### 🥉 Bronze Layer
+
+- Stores raw source data
+- No transformations applied
+- Acts as the landing zone
+
+### 🥈 Silver Layer
+
+- Cleans and transforms data
+- Removes duplicates
+- Standardizes formats
+- Improves data quality
+
+### 🥇 Gold Layer
+
+- Business-ready data
+- Optimized for reporting
+- Used by analytics teams
+
+## ⭐ Star Schema
+
+The Star Schema is a dimensional modeling technique used in Data Warehousing.
+
+### Benefits
+
+- Faster analytical queries
+- Simplified reporting
+- Better performance
+- Easy relationship management
